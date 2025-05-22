@@ -154,7 +154,7 @@ elif tool == "📂 File Summarizer":
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: gray;'>"
-    "🔧 Built with ❤️ using Together.ai & Streamlit | Made by <b>P. Vishwateja</b>"
+    "🔧 Built with ❤️ & Streamlit | Made by <b>P. Vishwateja</b>"
     "</div>",
     unsafe_allow_html=True
 )
