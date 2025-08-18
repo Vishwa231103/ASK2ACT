@@ -10,7 +10,7 @@ client = openai.OpenAI(
 
 # Page configuration
 st.set_page_config(page_title="AI Multi-Tool", layout="wide")
-st.markdown("<h1 style='text-align:center;'>🤖chota AI</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;'>🤖ASK2ACT</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Sidebar navigation
@@ -154,7 +154,7 @@ elif tool == "📂 File Summarizer":
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: gray;'>"
-    "🔧 Built with Streamlit || Made by <b>P. Vishwateja</b>"
+    "🔧 Built with Streamlit || Made by <b>P. Vishwateja, pranati ,karthik</b>"
     "</div>",
     unsafe_allow_html=True
 )
