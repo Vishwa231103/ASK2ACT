@@ -1,6 +1,6 @@
-# Chota-AI
+# ASK2ACT
 
-# 🤖 Chota AI
+# 🤖 ASK2ACT
 
 Chota AI is a lightweight AI-powered multi-tool app built with [Streamlit](https://streamlit.io/) and powered by [Together.ai](https://www.together.ai/) API. It provides a suite of utilities including:
 
