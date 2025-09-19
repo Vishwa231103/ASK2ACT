@@ -18,10 +18,10 @@ with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/4712/4712109.png", width=80)
     st.title("🧰 Tools")
     tool = st.radio("Choose a tool:", [
-        "Chat Assistant",''' "Code Helper"''', '''"Text Summarizer"''', "📂 File Summarizer"
+        "Chat Assistant", "Code Helper", "Text Summarizer", "📂 File Summarizer"
     ])
     st.markdown("---")
-    st.markdown("Made with ❤️ by **NeuroCoders**")
+    st.markdown("Made with ❤️ by **P. vishwateja**")
 
 # Initialize history
 if "history" not in st.session_state:
@@ -54,7 +54,7 @@ def chat_assistant():
             st.warning("⚠️ Please enter a message.")
 
 # Code Helper
-'''def code_helper():
+def code_helper():
     st.subheader("🛠️ Code Helper")
     code = st.text_area("Paste your code:", height=300)
     if st.button("Process", key="code"):
@@ -77,10 +77,10 @@ def chat_assistant():
                 except Exception as e:
                     st.error(f"❌ Error: {e}")
         else:
-            st.warning("⚠️ Please paste some code.")'''
+            st.warning("⚠️ Please paste some code.")
 
 # Text Summarizer
-'''def text_summarizer():
+def text_summarizer():
     st.subheader("📝 Text Summarizer")
     text = st.text_area("Enter text to summarize:")
     if st.button("Process", key="summary"):
@@ -103,7 +103,7 @@ def chat_assistant():
                 except Exception as e:
                     st.error(f"❌ Error: {e}")
         else:
-            st.warning("⚠️ Please enter text.")'''
+            st.warning("⚠️ Please enter text.")
 
 # File Summarizer
 def file_summarizer():
@@ -154,7 +154,7 @@ elif tool == "📂 File Summarizer":
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: gray;'>"
-    "🔧 Built with Streamlit || Made by <b>Neurocoders</b>"
+    "🔧 Built with Streamlit || Made by <b>vishwateja , karthik, pranati</b>"
     "</div>",
     unsafe_allow_html=True
 )
