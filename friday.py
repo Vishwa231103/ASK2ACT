@@ -12,7 +12,7 @@ st.set_page_config(page_title="Friday - AI Voice Assistant", layout="centered")
 st.title("🤖 Friday - Your AI Voice Assistant")
 
 # Set Together AI API key
-client = Together(api_key="22b64e2fb916b3509edc53e494ae373a3875f70bf9232b5ef9aa5385d65e587b")
+client = Together(api_key="your api key")
 
 # ===========================
 # 2. Capture Speech
